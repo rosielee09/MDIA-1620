@@ -1,7 +1,10 @@
 # MDIA-1620
+
+## Rosie Lee
 ---
-This is a *cool* repository!
->"Here is a cool quote"
+## My favorite *Sandwich*!
+>"Here is my favorite sandwich picture!"
+![Chicken sandwich](https://github.com/user-attachments/assets/121be199-3be5-4bd4-8aa0-1f0cf332914d)
 
 ## 3 Things that "aha" moments in this class
 1.  We learned the command line to navigate directories - was cool
@@ -9,7 +12,7 @@ This is a *cool* repository!
 3.  Fun to play around
 
 ## Things are still unclear
-1. Not from this class, but looking forward to learning more about Git & GitHub
+Not from this class, but looking forward to learning more about Git & GitHub
 
 ## One word describes your feeling
-:Exciting
+Exciting
