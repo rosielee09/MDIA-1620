@@ -16,3 +16,16 @@ Not from this class, but looking forward to learning more about Git & GitHub
 
 ## One word describes your feeling
 Exciting
+
+## New 3,2,1s 
+
+## 3 Things I learned
+1. Leanred Primitives
+2. Leanred how to commit 
+3. Leanred how to push
+
+## 2 things confusing
+1. Git asked me to authorize me
+2. Nothing else is really confusing. Pretty clear
+## 1 word for my feeling
+Awesome
