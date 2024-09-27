@@ -26,5 +26,9 @@ console.log(true + 1); // 2, true: 1 / false:0
 console.log("Stable monthly fee is " + STABLE_MONTHLY_FEE);
 console.log("Stable monthly fee is " + horseName + "and he is " + horseAge);
 console.log(`Stable monthly fee is  ${STABLE_MONTHLY_FEE}`); // backticks
-console.log(`Let me introduce my horse. He's nickname is ${horseName}`);
-console.log(`I would save 10%, $${STABLE_MONTHLY_FEE/10 *3} if I stay 3 months`);
+
+//Lab4
+let horseNickName = "LuluLala";
+const STABLE_MONTHLY=100;
+console.log(`Let me introduce my horse. He's nickname is ${horseNickName}`);
+console.log(`I would save 10%, $${STABLE_MONTHLY/10 *3} if I stay 3 months`);
