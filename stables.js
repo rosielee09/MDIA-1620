@@ -3,7 +3,7 @@ let horseName = "Stephanie";
 console.log(horseName);
 horseName = "Charlie";
 console.log(horseName);
-let horseAge = 12346;
+let horseAge = 5;
 console.log(horseAge);
 let isHorseInside = true;
 console.log(isHorseInside);
@@ -32,3 +32,44 @@ let horseNickName = "LuluLala";
 const STABLE_MONTHLY=100;
 console.log(`Let me introduce my horse. He's nickname is ${horseNickName}`);
 console.log(`I would save 10%, $${STABLE_MONTHLY/10 *3} if I stay 3 months`);
+
+//Lessoon-5 Code
+// if(3 <4) {
+//     console.log("🍕 this is getting output becuase the expression above evaled to true!")
+// }
+
+// if(isHorseInside) {
+// console.log(`🐎 ${horseName} is inside`);
+// } else {
+//     console.log(`🌧️ ${horseName} is outside`)
+// }
+
+// if(horseAge===10) {
+//     console.log(`🐎 Our horse is old!`);
+//     } else if(horseAge === 9){
+//         console.log(`🌧️ Our horse is young!`)
+//     } else {
+//         console.log("Our horse is still pretty young")
+//     }
+
+// horseName = "🍓Strawberry"
+
+
+
+let visitingHorseName = "🥕Carrot"
+
+
+if((horseName === "Charlie" && isHorseInside) && visitingHorseName==="🥕Carrot" ) {
+    console.log(`${horseName} has a visitor and needs to come outside to see ${visitingHorseName}`);
+}else if((horseName==="Charlie" && isHorseInside) && visitingHorseName==="🍓 Strawberry"){
+    console.log(`${horseName} is outside with  ${visitingHorseName}`);
+} else{
+    console.log(`${horseName} needs to figure what is going on`);
+}
+
+//Lab5
+if(isHorseInside) {
+console.log(`🐎 ${horseName} is inside`);
+} else {
+    console.log(`🌧️ ${horseName} is outside`)
+}
