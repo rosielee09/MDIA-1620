@@ -73,3 +73,40 @@ console.log(`🐎 ${horseName} is inside`);
 } else {
     console.log(`🌧️ ${horseName} is outside`)
 }
+
+//Lesson-6
+let word = "Rainbow";
+console.log(word.charAt(4));
+console.log(word.length);
+let horseNames = ["Charlie", "Strawberry", "Beans"];
+let horseAges = [horseAge, 2, 10];
+let horseLocation = [isHorseInside, false, true];
+console.log(horseNames.length); //3
+console.log(horseNames);
+horseNames.push("Lettuce"); //adding at the end of the array
+console.log(horseNames);
+console.log(horseNames[3]);
+console.log(horseLocation[2]);
+console.log(`welcome to my stables, There are ${horseNames.length} horses are staying:)`);
+
+if(horseNames[0] ==="Charlie") {
+    console.log("Hi Charlie!");
+}
+
+if(horseNames.length < 5) {
+    console.log("These stalbes are unpopular");
+}
+
+//Lab 6 
+//output an introduction to your horses
+// - output hweter your horsese are inside or outside!
+
+// In readme file
+// 3 confushing things, 3 things you have a solid understand of(optional), analogies that you use + gif(optional)
+
+console.log(`welcome to my stables, There are ${horseNames.length} horses are staying:). They are ${horseNames}`);
+if(isHorseInside) {
+    console.log(`🐎 ${horseNames} are inside`);
+    } else {
+        console.log(`🌧️ ${horseName} are outside`)
+    }
