@@ -80,7 +80,7 @@ console.log(word.charAt(4));
 console.log(word.length);
 let horseNames = ["Charlie", "Strawberry", "Beans"];
 let horseAges = [horseAge, 2, 10];
-let horseLocation = [isHorseInside, false, true];
+let horseLocation = [isHorseInside, true, false, true];
 console.log(horseNames.length); //3
 console.log(horseNames);
 horseNames.push("Lettuce"); //adding at the end of the array
@@ -103,6 +103,7 @@ if(horseNames.length < 5) {
 
 // In readme file
 // 3 confushing things, 3 things you have a solid understand of(optional), analogies that you use + gif(optional)
+
 
 console.log(`welcome to my stables, There are ${horseNames.length} horses are staying:). They are ${horseNames}`);
 if(isHorseInside) {
