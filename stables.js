@@ -155,3 +155,15 @@ function logLateRentForHorses(horses) {
 }
 
 logLateRentForHorses(horses);
+
+
+const treatToCheck = "radish";
+
+for (let horse of horses) {
+    if (horse.favTreat !== treatToCheck) {
+        console.log(`${horse.name} does not like ${treatToCheck}.`);
+    } else {
+        console.log(`${horse.name} likes ${treatToCheck}!`);
+        break; 
+    }
+}
