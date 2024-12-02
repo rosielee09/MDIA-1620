@@ -72,7 +72,7 @@ horse3.isHungry = true;
 newHorse.isHungry = false;
 
 //------------------------- Stable roster -------------------------//
-
+console.log(horses);
 
 // [
 //     Horse {
@@ -139,3 +139,19 @@ if(availableStalls < 2)
     console.log("We need to build more stalls");
 else
     console.log(`We have ${availableStalls}stalls avaiable!`);
+
+
+
+function calculateLateRent(horse) {
+        return horse.monthlyRent + LATE_PAYMENT_FEE;
+}
+    
+    
+function logLateRentForHorses(horses) {
+    horses.forEach(horse => {
+        const amountOwed = calculateLateRent(horse);
+        console.log(`If rent is paid late, ${horse.name} will owe $${amountOwed}.`);
+    });
+}
+
+logLateRentForHorses(horses);
