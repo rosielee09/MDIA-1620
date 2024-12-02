@@ -70,3 +70,61 @@ horse1.isHungry = true;
 horse2.isHungry = false;
 horse3.isHungry = true;
 newHorse.isHungry = false;
+
+//------------------------- Stable roster -------------------------//
+
+
+// [
+//     Horse {
+//       name: 'Jenny',
+//       nickname: 'Jen',
+//       favTreat: 'carrots',
+//       age: 3,
+//       monthlyRent: 300,
+//       isInside: true,
+//       hobby: 'running',
+//       favColor: 'pink',
+//       intro: [Function (anonymous)],
+//       getFavColor: [Function (anonymous)],
+//       isHungry: true
+//     },
+//     Horse {
+//       name: 'Rose',
+//       nickname: 'Rosie',
+//       favTreat: 'apples',
+//       age: 5,
+//       monthlyRent: 280,
+//       isInside: false,
+//       hobby: 'drawing',
+//       favColor: 'blue',
+//       intro: [Function (anonymous)],
+//       getFavColor: [Function (anonymous)],
+//       isHungry: false
+//     },
+//     Horse {
+//       name: 'Lisa',
+//       nickname: 'Li',
+//       favTreat: 'radish',
+//       age: 7,
+//       monthlyRent: 250,
+//       isInside: true,
+//       hobby: 'walking',
+//       favColor: 'green',
+//       intro: [Function (anonymous)],
+//       getFavColor: [Function (anonymous)],
+//       isHungry: true
+//     },
+//     {
+//       name: 'Jisu',
+//       nickname: 'Blink',
+//       favTreat: 'cucumber',
+//       age: 6,
+//       monthlyRent: 150,
+//       isInside: false,
+//       hobby: 'singing',
+//       favColor: 'lavender',
+//       intro: [Function: intro],
+//       getFavColor: [Function: getFavColor],
+//       isHungry: false
+//     }
+//   ]
