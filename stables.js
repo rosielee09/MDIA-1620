@@ -65,3 +65,8 @@ const newHorse = {
 
 }
 horses.push(newHorse);
+
+horse1.isHungry = true;
+horse2.isHungry = false;
+horse3.isHungry = true;
+newHorse.isHungry = false;
