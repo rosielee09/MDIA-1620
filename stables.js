@@ -167,3 +167,11 @@ for (let horse of horses) {
         break; 
     }
 }
+
+function returnHorseNickname(horse) {
+    return horse.nickname;
+}
+
+const chosenHorse = horses[1];
+const chosenNickname = returnHorseNickname(chosenHorse);
+console.log(`The nickname of the 'Chosen horse: ${horses[1].name}' is ${chosenNickname}`);
