@@ -128,3 +128,14 @@ newHorse.isHungry = false;
 //       isHungry: false
 //     }
 //   ]
+
+
+//---------------------- Growing business ----------------------//
+
+let totalHorse = horses.length;
+availableStalls = availableStalls - totalHorse;
+
+if(availableStalls < 2)
+    console.log("We need to build more stalls");
+else
+    console.log(`We have ${availableStalls}stalls avaiable!`);
