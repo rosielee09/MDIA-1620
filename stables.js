@@ -223,3 +223,30 @@ function feedHorses() {
 }
 
 feedHorses();
+
+// Bedtime! 
+
+function moveAllHorseOutside(isGettingDark) {
+    if (isGettingDark) {
+        horses.forEach(horse => {
+            if (!horse.isInside) {
+                horse.isInside = true; 
+                console.log(`${horse.name} was outside and has been moved inside because it's getting dark.`);
+            }
+        });
+    } else {
+
+        horses.forEach(horse => {
+            if (horse.isInside) {
+                horse.isInside = false; 
+                console.log(`${horse.name} has been moved outside to enjoy the sun.`);
+            }
+        });
+    }
+}
+
+const isMorning = false; //Test for daytime
+moveAllHorseOutside(isMorning);
+
+const isItGettingDark = true; // Test for bedtime
+moveAllHorseOutside(isItGettingDark);
