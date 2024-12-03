@@ -175,3 +175,12 @@ function returnHorseNickname(horse) {
 const chosenHorse = horses[1];
 const chosenNickname = returnHorseNickname(chosenHorse);
 console.log(`The nickname of the 'Chosen horse: ${horses[1].name}' is ${chosenNickname}`);
+
+//------------------------- Day to day operations -------------------------//
+
+function logHorseHobbies() {
+    horses.forEach(horse=> {
+        console.log(`${horse.name}'s hobby is ${horse.hobby}`);
+    })
+}
+logHorseHobbies();
