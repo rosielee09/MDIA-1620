@@ -184,3 +184,29 @@ function logHorseHobbies() {
     })
 }
 logHorseHobbies();
+
+function moveAllHorseOutside(){
+    horses.forEach(horse=>{
+        if(!horse.isInside) {
+            console.log(`${horse.name} is already outside to enjoy the sun`);
+        } else{
+            horse.isInside = false;
+            console.log(`${horse.name} has been moved outside to sunbathe`);
+        }
+    })
+}
+
+moveAllHorseOutside();
+
+function switchHorseLocation(){
+    this.isInside = !this.isInside;
+    const location = this.isInside ? "Inside" : "Outside";
+    console.log(`${this.name} has been moved to ${location}`);
+}
+
+horses.forEach(horse=>{
+    horse.switchLocation = switchHorseLocation;
+})
+
+// horses[0].switchLocation(); 
+console.log(horses);
