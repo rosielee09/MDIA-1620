@@ -201,12 +201,25 @@ moveAllHorseOutside();
 function switchHorseLocation(){
     this.isInside = !this.isInside;
     const location = this.isInside ? "Inside" : "Outside";
-    console.log(`${this.name} has been moved to ${location}`);
+    console.log(`${this.name} has been switched the location to ${location}`);
 }
 
 horses.forEach(horse=>{
     horse.switchLocation = switchHorseLocation;
 })
 
-// horses[0].switchLocation(); 
-console.log(horses);
+
+
+function feedHorses() {
+    horses.forEach(horse=>{
+
+        console.log(`${horse.name} come in! Time to eat your favorite snack, ${horse.favTreat}`);
+        
+        if(!horse.isInside){
+            horse.switchLocation();
+        }
+        
+    })
+}
+
+feedHorses();
